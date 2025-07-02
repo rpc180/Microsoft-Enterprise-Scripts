@@ -61,7 +61,7 @@ try {
     Copy-Item "$centralStore\$languageCode\*.adml" -Destination "$backupPath\$languageCode" -Recurse -Force -ErrorAction Stop
     Write-Host "Backup complete.`n"
 } catch {
-    Write-Host "❌ Error during backup: $_"
+    Write-Host "Error during backup: $_"
 }
 
 # Initialize log lists
@@ -79,7 +79,7 @@ Get-ChildItem -Path "$newAdmxSource\*.admx" | ForEach-Object {
             $updatedFiles += "ADMX: $($_.Name)"
         }
     } catch {
-        $errorLog += "❌ ADMX ERROR: $($_.Name) — $_"
+        $errorLog += "ADMX ERROR: $($_.Name) $_"
     }
 }
 
@@ -96,7 +96,7 @@ Get-ChildItem -Path "$sourceLangPath\*.adml" | ForEach-Object {
             $updatedFiles += "ADML: $($_.Name)"
         }
     } catch {
-        $errorLog += "❌ ADML ERROR: $($_.Name) — $_"
+        $errorLog += "ADML ERROR: $($_.Name) $_"
     }
 }
 
