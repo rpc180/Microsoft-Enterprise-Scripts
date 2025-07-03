@@ -13,12 +13,19 @@
     - Reports status of SSL 2.0, SSL 3.0, TLS 1.0, 1.1, 1.2, and 1.3
     - Displays whether 'Enabled' DWORDs exist and their values
     - Flags missing keys or default behaviors
+  
   Attribution :
+    - Script developed and maintained by Romel Punsal
     - This script was developed with assistance from AI (OpenAI ChatGPT)
-    - Reviewed and modified for operational use in enterprise environments
-  License     : This script is provided under the GNU General Public License v3.0
-                You may freely use, modify, and redistribute with attribution.
-                See https://www.gnu.org/licenses/gpl-3.0.en.html for full terms.
+  
+  License : 
+    Copyright (c) 2024 Romel Punsal
+    This script is provided under the GNU General Public License v3.0
+    You may freely use, modify, and redistribute with attribution.
+    This script is distributed WITHOUT ANY WARRANTY; without even the 
+    implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR 
+    PURPOSE.
+
   Compatible OS:
     - Windows Server 2012 R2, 2016, 2019, 2022
     - Windows 10 / 11 Professional or Enterprise Editions

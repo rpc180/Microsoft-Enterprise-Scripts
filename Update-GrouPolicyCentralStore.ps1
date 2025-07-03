@@ -28,12 +28,16 @@
        - Generate a detailed log file of changes
 
   Attribution :
-    - Script developed with assistance from OpenAI ChatGPT
-    - Reviewed and adapted for secure domain controller use
-
-  License     : This script is licensed under the GNU General Public License v3.0
-                You may freely use, modify, and redistribute with attribution.
-                See: https://www.gnu.org/licenses/gpl-3.0.en.html
+    - Script developed and maintained by Romel Punsal
+    - This script was developed with assistance from AI (OpenAI ChatGPT)
+  
+  License : 
+    Copyright (c) 2024 Romel Punsal
+    This script is provided under the GNU General Public License v3.0
+    You may freely use, modify, and redistribute with attribution.
+    This script is distributed WITHOUT ANY WARRANTY; without even the 
+    implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR 
+    PURPOSE.
 
   Compatible OS:
     - Windows Server 2016, 2019, 2022 (Domain Controllers)
